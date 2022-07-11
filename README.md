@@ -1,8 +1,7 @@
-# Team API template
+# Internal Platform Squad Team API
 
-A template for defining a Team API. Based on some of the ideas in the book _Team Topologies_ by Matthew Skelton [@matthewskelton](https://github.com/matthewskelton) and Manuel Pais [@manupaisable](https://github.com/manupaisable).
+Guidelines on how to work with IPS
 
-> See [teamtopologies.com](https://teamtopologies.com/) for more details about Team Topologies.
 
 > Copyright © 2018-2020 [Team Topologies](https://teamtopologies.com/) - Licenced under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) ![CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/3.0/88x31.png)
 
@@ -18,14 +17,14 @@ Each team should answer the questions and fill in the details below. Remember th
 
 Date:
 
-* Team name and focus:
-* Team type:
-* Part of a Platform? (y/n) Details:
-* Do we provide a service to other teams? (y/n) Details:
-* What kind of Service Level Expectations do other teams have of us?
-* Software owned and evolved by this team:
-* Versioning approaches:
-* Wiki search terms:
+* Team name and focus: Internal Platform Squad. Cloud/Infrastructure Engineering. Authorisers, Orchestrators, Deployment pipelines. Helping others solve problems. Provide enablement and support in SDLC including Pipelines, Testing, CD, etc. AWS. We are custodians for some key SaaS components, e.g. MongoDB Atlas. We aer also responsible for onboparding and access requests for dev tooling
+* Team type: Enablement
+* Part of a Platform? (y) Details: Authorisers maintained by IPS are used across our product stack. We also provide the trantor deployment service and some component libraries for CDK.
+* Do we provide a service to other teams? Yes Details: Authorizers, Orchestrator, Trantor, expert assistance. 
+* What kind of Service Level Expectations do other teams have of us? Teams expect our services to always work and for the pipleines to allow them to deploy changes at any time, with minimal delay. Teams also expect new engineers to have their access needs with a reasonable delay. Teams expect us to act as a point of escalation and resolution for most IaaS, PaaS and SaaS.
+* Software owned and evolved by this team: Link to Service Catalogue for IPS
+* Versioning approaches: Git Commit Hash
+* Wiki search terms: SSO, AWS, Mongo, Nebula, Trantor
 * Chat tool channels: #_____________ #_____________ #_____________
 * Time of daily sync meeting:
 
